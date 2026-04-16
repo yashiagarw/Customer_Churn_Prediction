@@ -1,0 +1,57 @@
+# Retention Strategy Knowledge Base
+# This document contains expert retention strategies for different customer risk profiles.
+# Each strategy section is retrieved via RAG based on the customer's churn indicators.
+
+## Strategy: Early Tenure Churn Prevention (< 12 months)
+- **Target**: New customers showing disengagement signals within their first year.
+- **Root Cause**: Customers haven't yet discovered core value or built habits around the product.
+- **Action 1**: Deploy a "Welcome Journey" — a 30/60/90-day onboarding drip campaign with personalized tips and feature highlights.
+- **Action 2**: Assign a dedicated onboarding specialist for high-value new accounts to ensure successful adoption.
+- **Action 3**: Offer a "Commitment Incentive" — 15-20% discount locked for the next 3 billing cycles if they commit before month 3.
+- **Key Metric**: Track feature adoption rate and first-value-moment timing.
+- **Source**: Harvard Business Review — "The Value of Keeping the Right Customers" (2014).
+
+## Strategy: High Monthly Charge Flight Risk (> $80/mo)
+- **Target**: Premium-tier customers whose cost-to-value perception is declining.
+- **Root Cause**: Customers feel they are overpaying relative to the value received, especially if they don't use all premium features.
+- **Action 1**: Conduct a proactive "Plan Optimization Review" — audit their usage patterns and demonstrate ROI on their current tier.
+- **Action 2**: Offer a graceful downgrade path to a mid-tier plan with the most-used features, rather than risking total churn.
+- **Action 3**: Provide a value-add bundle (e.g., free add-on service, extended warranty) to increase perceived value without reducing price.
+- **Key Metric**: Feature utilization rate vs. plan cost.
+- **Source**: McKinsey & Company — "Pricing and the Psychology of Value" (2019).
+
+## Strategy: High Support Volume Dissatisfaction (3+ calls)
+- **Target**: Accounts with repeated support contacts indicating unresolved issues or product friction.
+- **Root Cause**: Accumulated frustration from repeated unresolved issues erodes trust and loyalty.
+- **Action 1**: Escalate to a dedicated Customer Success Manager (CSM) for a comprehensive "White Glove" resolution session.
+- **Action 2**: Implement a Service Recovery Protocol — acknowledge the inconvenience, provide a concrete resolution timeline, and offer a service credit.
+- **Action 3**: Set up proactive monitoring and priority SLA routing for future inquiries from flagged accounts.
+- **Key Metric**: Mean Time to Resolution (MTTR) and Customer Effort Score (CES).
+- **Source**: Gartner — "Effortless Experience: Conquering the New Battleground for Customer Loyalty" (2013).
+
+## Strategy: Moderate Tenure Re-engagement (12-24 months)
+- **Target**: Customers in their second year who haven't deepened their engagement.
+- **Root Cause**: Initial excitement has faded; customer is in "autopilot" mode and vulnerable to competitor offers.
+- **Action 1**: Launch a personalized "Year 2 Upgrade" campaign highlighting new features or services released since they joined.
+- **Action 2**: Invite to exclusive beta programs or customer advisory boards to increase emotional investment.
+- **Action 3**: Offer an annual plan conversion at 20%+ discount to lock in commitment and reduce monthly decision points.
+- **Key Metric**: Login frequency trend and feature adoption breadth.
+- **Source**: Bain & Company — "The Economics of E-Loyalty" (2020).
+
+## Strategy: Long-Term Customer Attrition Prevention (24+ months)
+- **Target**: Established customers showing early signs of disengagement after extended loyalty.
+- **Root Cause**: Feeling "taken for granted" — competitors may be actively courting them with fresh offers.
+- **Action 1**: Recognize loyalty publicly — invite to VIP "Customer Advisory Board" or executive briefings.
+- **Action 2**: Provide a "Loyalty Upgrade" — free tier bump for 6 months or exclusive features, emphasizing their valued partnership.
+- **Action 3**: Deploy a win-back-before-loss outreach: personal call from account executive with a tailored retention offer.
+- **Key Metric**: Net Promoter Score (NPS) trend and contract renewal signals.
+- **Source**: Frederick Reichheld — "The Loyalty Effect" (Harvard Business School Press).
+
+## Strategy: Low Engagement Silent Churn
+- **Target**: Customers who haven't actively used the product or logged in recently.
+- **Root Cause**: The habit loop has been broken; the product is no longer part of their workflow.
+- **Action 1**: Trigger a re-engagement drip campaign showcasing "What's New" features and underutilized capabilities.
+- **Action 2**: Gamify quick wins — e.g., "Complete these 3 actions to unlock a $50 account credit."
+- **Action 3**: Offer a free "Refresh Session" with a product specialist to re-discover value aligned with their current needs.
+- **Key Metric**: Days since last login, session duration trend.
+- **Source**: Nir Eyal — "Hooked: How to Build Habit-Forming Products" (2014).

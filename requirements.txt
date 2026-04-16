@@ -3,3 +3,11 @@ pandas
 scikit-learn
 plotly
 joblib
+langchain
+langgraph
+langchain-openai
+langchain-google-genai
+langchain-community
+faiss-cpu
+python-dotenv
+ 
