@@ -18,10 +18,10 @@ ChurnSense is a premium, interactive web application that combines **Machine Lea
 - **LangGraph Workflow**: Explicit 3-node state machine (`Analyze Risk → Retrieve Strategies → Generate Report`) with typed state management across all steps.
 - **RAG with FAISS**: Embeds a curated knowledge base of retention best practices into a FAISS vector store using Google Generative AI embeddings; semantically retrieves the top-3 most relevant strategies for each customer profile.
 - **Structured Output**: Every report follows a strict format:
-  - 🔍 **Risk Summary** — Customer churn profile analysis
-  - 💡 **Recommendations** — 3 actionable retention interventions
-  - 📚 **Sources** — Best practices & references that informed the recommendations
-  - ⚖️ **Disclaimer** — Business & ethical disclosures
+  -  **Risk Summary** — Customer churn profile analysis
+  -  **Recommendations** — 3 actionable retention interventions
+  -  **Sources** — Best practices & references that informed the recommendations
+  -  **Disclaimer** — Business & ethical disclosures
 - **Anti-Hallucination Prompting**: Low-temperature generation with explicit grounding instructions — the LLM is constrained to only reference retrieved strategies and provided customer data.
 - **Premium UI**: Glassmorphic dark theme, gradient typography, animated pipeline visualization, and responsive layout.
 
@@ -68,12 +68,12 @@ Opens at `http://localhost:8501`.
 
 ---
 
-## 🤖 Using the Agentic AI
+##  Using the Agentic AI
 
 1. Adjust customer metrics in the **sidebar** (tenure, charges, support calls).
 2. Paste your **Gemini API Key** in the sidebar under "Agentic AI".
 3. Navigate to the **🤖 Agentic AI** tab.
-4. Click **🚀 Generate Retention Strategy**.
+4. Click ** Generate Retention Strategy**.
 5. The LangGraph pipeline will:
    - **Analyze** the customer's risk profile and drivers
    - **Retrieve** semantically similar retention strategies from the FAISS vector store
