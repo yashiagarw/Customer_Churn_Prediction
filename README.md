@@ -1,4 +1,4 @@
-# 🧠 ChurnSense — Agentic AI Customer Retention Platform
+#  ChurnSense — Agentic AI Customer Retention Platform
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://customerchurnprediction-capstone.streamlit.app/)
 
@@ -6,7 +6,7 @@ ChurnSense is a premium, interactive web application that combines **Machine Lea
 
 ---
 
-## ✨ Features
+##  Features
 
 ### Milestone 1 — Churn Prediction
 - **Dual Model Support**: Choose between Logistic Regression and Decision Tree classifiers for instant churn probability.
@@ -27,7 +27,7 @@ ChurnSense is a premium, interactive web application that combines **Machine Lea
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -81,7 +81,7 @@ Opens at `http://localhost:8501`.
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌──────────────────────────────────────────────────────┐
@@ -100,7 +100,7 @@ Opens at `http://localhost:8501`.
               └──────────────────────────────────────┘
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 | File | Purpose |
 |------|---------|
@@ -112,7 +112,7 @@ Opens at `http://localhost:8501`.
 | `models/*.joblib` | Serialized models, scaler, feature columns, and evaluation metrics |
 | `requirements.txt` | Project dependencies |
 
-## 🔬 Technical Details
+##  Technical Details
 
 ### Machine Learning
 - **Logistic Regression**: Highly interpretable, strong generalization on test data.
